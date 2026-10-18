@@ -1,0 +1,25 @@
+{
+  "scope": "First 100 rows from byte-identical 10,000-event portable replay, for smoke comparison only; not a band estimator sample.",
+  "columns": [
+    "s1c_phd",
+    "s2c_phd",
+    "energy_rec"
+  ],
+  "precision": "17 significant digits; untouched original CSV rows",
+  "jobs": {
+    "er": {
+      "seed": 2452026,
+      "events": 100,
+      "file": "data/small_reference/er_first100.csv",
+      "sha256": "82f50e79eaad282a351c5e56e0f6bb46d7f15020bc2b5288c11a333873db8a0c",
+      "source_portable_10000_sha256": "7b549aeaf459e68bced5fd877000ce4fbffb03090c1f2f2ebf430c7b7925fdd1"
+    },
+    "nr": {
+      "seed": 260903,
+      "events": 100,
+      "file": "data/small_reference/nr_first100.csv",
+      "sha256": "2825a34c87045bc1a5e9f74459c278ea20ff838960ad573ad6006e872c391bcf",
+      "source_portable_10000_sha256": "328c05496a39f6da9207f39ec3609d411c2a3cae3b649129b641d6091e544612"
+    }
+  }
+}

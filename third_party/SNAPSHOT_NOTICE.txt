@@ -1,0 +1,21 @@
+This directory is an offline source dependency snapshot for review of a local
+ER/NR band calculation. It is not a new official NEST or DIAMX distribution.
+
+NEST source: https://github.com/NESTCollaboration/nest
+  Included: 9 core translation units, the copied include tree, original
+  LICENSE (Apache 2.0), CITATION.md, and original README.md.
+  Copied from the current local nestmaster_full response tree. Its own git
+  metadata was unavailable; exact file hashes define the delivered snapshot.
+  Local wrapper/detector selection is documented in response/README.txt.
+
+GCE-Math: https://github.com/kthohr/gcem
+  Included: the locally used include tree, original LICENSE (Apache 2.0),
+  NOTICE.txt, and original README.md. Upstream copyright notices are retained.
+  No new online dependency resolution is performed by the package.
+
+All copied files are unedited relative to the identified local input files.
+That assertion does not imply equivalence to an unmodified official release.
+The per-file copy receipt is response/source_copy_manifest.json.
+
+Application files outside this directory are local review/reproduction code;
+no license for that local code is invented or inferred by these notices.

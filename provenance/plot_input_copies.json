@@ -1,0 +1,53 @@
+{
+  "copies": {
+    "data\\precomputed\\er_band.csv": {
+      "sha256": "a68c985f9dcae796b8c5a58cc942368270d26981f7982cffffdf9701103f3b81",
+      "bytes": 13623
+    },
+    "data\\precomputed\\nr_band.csv": {
+      "sha256": "984b72cf4f59e6685a587cad9a98a15e26dfa006e116ed22731d8060a6583759",
+      "bytes": 36746
+    },
+    "data\\published\\pdf_fig2_er_mean.csv": {
+      "sha256": "dab4a314f0fcbcd252e33a012e7b3c7caf9dae8c988258b6cd39a7ab6d3a61fa",
+      "bytes": 24774
+    },
+    "data\\published\\pdf_fig2_er_lower.csv": {
+      "sha256": "d60fc46a6ae87d4858e8b1389be5e6ef7912016ad6f545ccc23b6e0ef4b3b4b8",
+      "bytes": 27247
+    },
+    "data\\published\\pdf_fig2_er_upper.csv": {
+      "sha256": "213a77bc96782503602b68b4ae53bae3b3cf6f68456dc9c67e5c7a51cbe233dc",
+      "bytes": 21619
+    },
+    "data\\published\\pdf_fig2_nr_mean.csv": {
+      "sha256": "96031b4c76d312f5c24ff4b7f3544c4ca7619298b38bcf13905ea0bb25fb4215",
+      "bytes": 17602
+    },
+    "data\\published\\pdf_fig2_nr_lower.csv": {
+      "sha256": "edd8fe8131b4b35f6b7110b5cafdf784fc34ecfdc2029668e46ccd95ed4ce51f",
+      "bytes": 20240
+    },
+    "data\\published\\pdf_fig2_nr_upper.csv": {
+      "sha256": "edaab5282715debaf5825585b747974b207e0665fb30df1edfa62d7f598949b5",
+      "bytes": 19566
+    },
+    "figures\\ER_NR500_main_panels.png": {
+      "sha256": "31515570da27463b516e5158ee4129b09709f22abd50e8915204fd07ef066cd1",
+      "bytes": 438498
+    },
+    "figures\\ER_NR500_main_panels.pdf": {
+      "sha256": "17d35216278d46ccdaff124be7c1310979ea4aea63be94acd5996c0597369d34",
+      "bytes": 64677
+    },
+    "figures\\ER_NR500_combined.png": {
+      "sha256": "339ddaca019bd7df30cbda615c90fc71d5d629f257d15b7bf138c574f3635b78",
+      "bytes": 556124
+    },
+    "figures\\ER_NR500_combined.pdf": {
+      "sha256": "4b9929fbc010022da028d6de6e3b08bdc0f889b7796d2d01842ec4bf261b6b9b",
+      "bytes": 68857
+    }
+  },
+  "note": "Exact byte copies. Original computer paths deliberately omitted; content hashes identify inputs."
+}

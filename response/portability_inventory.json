@@ -1,0 +1,10 @@
+{
+  "all_copied_files_hash_match": true,
+  "copied_files": 105,
+  "mismatches": [],
+  "translation_units": 11,
+  "legacy_external_source_or_include_paths_in_compile_commands": [],
+  "offline_configuration": "No FetchContent, installed NEST, or prebuilt archive used",
+  "scope": "response/ and third_party/ only",
+  "personal_paths_found_in_response_and_third_party_scan": false
+}

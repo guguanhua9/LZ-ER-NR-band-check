@@ -1,0 +1,27 @@
+{
+  "status": "precomputed_reference",
+  "ER": {
+    "interaction": "beta",
+    "seed": 2452026,
+    "events_requested": 1000000,
+    "flat_energy_keVee": [
+      0.1,
+      350
+    ],
+    "original_event_CSV_significant_digits": 6,
+    "slice_points": 40
+  },
+  "NR": {
+    "interaction": "NR",
+    "seed": 260903,
+    "events_requested": 3000000,
+    "flat_energy_keVnr": [
+      0.1,
+      500
+    ],
+    "original_event_CSV_significant_digits": 17,
+    "slice_points": 80
+  },
+  "inputs_are_original_statistics": true,
+  "parameter_changes": false
+}

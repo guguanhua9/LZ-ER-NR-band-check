@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "tested_compiler": "GNU 11.4.0; CMake 3.22.1; Ubuntu 22.04",
+  "scope": "bundled source CMake build against existing independently clean-compiled reference; no old archive reused",
+  "jobs": {
+    "er": {
+      "events": 10000,
+      "fields": [
+        "s1c_phd",
+        "s2c_phd",
+        "energy_rec"
+      ],
+      "portable_sha256": "7b549aeaf459e68bced5fd877000ce4fbffb03090c1f2f2ebf430c7b7925fdd1",
+      "reference_sha256": "7b549aeaf459e68bced5fd877000ce4fbffb03090c1f2f2ebf430c7b7925fdd1",
+      "byte_identical": true,
+      "columns": {
+        "s1c_phd": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        },
+        "s2c_phd": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        },
+        "energy_rec": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "finite_positive_S1_S2": 9974
+    },
+    "nr": {
+      "events": 10000,
+      "fields": [
+        "s1c_phd",
+        "s2c_phd",
+        "energy_rec"
+      ],
+      "portable_sha256": "328c05496a39f6da9207f39ec3609d411c2a3cae3b649129b641d6091e544612",
+      "reference_sha256": "328c05496a39f6da9207f39ec3609d411c2a3cae3b649129b641d6091e544612",
+      "byte_identical": true,
+      "columns": {
+        "s1c_phd": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        },
+        "s2c_phd": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        },
+        "energy_rec": {
+          "identical": true,
+          "max_absolute_difference": 0.0
+        }
+      },
+      "finite_positive_S1_S2": 9918
+    }
+  },
+  "archive_identity_claim": "No claim that static archive headers/path metadata must match: event values are the invariant used here.",
+  "nr_high_energy_warning": "The unchanged core emits No data beyond AmBe endpoint about 300 keV warnings for part of the NR500 reference. Included to avoid high-S1 truncation; not an independent validation of NR yields above 300 keV."
+}

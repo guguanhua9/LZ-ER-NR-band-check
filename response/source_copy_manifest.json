@@ -1,0 +1,641 @@
+{
+  "scope": "Exact current local response files; not an unmodified official release.",
+  "upstream_urls": {
+    "NEST": "https://github.com/NESTCollaboration/nest",
+    "gcem": "https://github.com/kthohr/gcem"
+  },
+  "source_tree_role": "nestmaster_full local response snapshot, identified by per-file SHA256; no git checkout in this NEST source root.",
+  "files": {
+    "third_party/nest/src/NEST.cpp": {
+      "origin": "local nestmaster_full/src/NEST.cpp",
+      "bytes": 123151,
+      "sha256": "189486b9d808159d63c0bd306cd42e26cc6365eea55450c01a09e9562c6edfb1",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/RandomGen.cpp": {
+      "origin": "local nestmaster_full/src/RandomGen.cpp",
+      "bytes": 5556,
+      "sha256": "2a7f94cd71b8aef3f51b85459463bca1a3526a79bbc9f4cfaab2cd06dfdb4d28",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/TestSpectra.cpp": {
+      "origin": "local nestmaster_full/src/TestSpectra.cpp",
+      "bytes": 26327,
+      "sha256": "4de82171252524565d675653539877db4101df260519ac1a9eacfc3444df0773",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/VDetector.cpp": {
+      "origin": "local nestmaster_full/src/VDetector.cpp",
+      "bytes": 516,
+      "sha256": "40b527be8904b8dd6cbe3d3e05e2d2b31a815946d823d1b51ed8611085b4342d",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/GammaHandler.cpp": {
+      "origin": "local nestmaster_full/src/GammaHandler.cpp",
+      "bytes": 5438,
+      "sha256": "0ecdbf6599ea61f3e03f5cb888896f3fc0b2da378263245c1b87a426dce2af3b",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/ValidityTests.cpp": {
+      "origin": "local nestmaster_full/src/ValidityTests.cpp",
+      "bytes": 604,
+      "sha256": "9e17c877cb534c9046189579f569b95b15a5ca0b83c9e8e39cfbbd468faee960",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/LArNEST.cpp": {
+      "origin": "local nestmaster_full/src/LArNEST.cpp",
+      "bytes": 27852,
+      "sha256": "446b31ad30dbd336884e7827d70d3640f71c499efa9dd60119d285649a4627c5",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/LArDetector.cpp": {
+      "origin": "local nestmaster_full/src/LArDetector.cpp",
+      "bytes": 3372,
+      "sha256": "553a9bc09284611b27de94325c4012e7f18592a9cb561ee99ca434efa6010a3d",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/src/TestLArSpectra.cpp": {
+      "origin": "local nestmaster_full/src/TestLArSpectra.cpp",
+      "bytes": 189,
+      "sha256": "14de97c942e4abfa0d8dcb644259fb6d367a0cfb5ccb935be8f3dcd34001bc27",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/Detector_G3.hh": {
+      "origin": "local nestmaster_full/include/Detectors/Detector_G3.hh",
+      "bytes": 8077,
+      "sha256": "9e8157e8d6db05e15507b45bf97a59db746080b54e6a31f01801ed131a3b6a07",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/DetectorExample_XENON10.hh": {
+      "origin": "local nestmaster_full/include/Detectors/DetectorExample_XENON10.hh",
+      "bytes": 8900,
+      "sha256": "20b6012c009cb198e1ee3e24f56b1fe8c6236d169281c93ab33954f4eb13a983",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/DS.hh": {
+      "origin": "local nestmaster_full/include/Detectors/DS.hh",
+      "bytes": 4334,
+      "sha256": "994538b0bc517b268cb8aa8029d94f79af95077575a47c1b21cb7aedb3dfb475",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/LArDetector.hh": {
+      "origin": "local nestmaster_full/include/Detectors/LArDetector.hh",
+      "bytes": 394,
+      "sha256": "0df0c409c50c82bb50183fc67b81612b40c56e1ab5cf491c138a2f2dcb1f3031",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/LUX_Run03.hh": {
+      "origin": "local nestmaster_full/include/Detectors/LUX_Run03.hh",
+      "bytes": 10625,
+      "sha256": "2491df53308f5a7075b88b286d5ac82a73ba90fd51c436ce8d03d53399a7fd21",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/LZ_WS2022.hh": {
+      "origin": "local nestmaster_full/include/Detectors/LZ_WS2022.hh",
+      "bytes": 9829,
+      "sha256": "de34481a2fddb4b1b9eb4521fe3def1f021afbb425ad167688164158ef095753",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/LZ_WS2024.hh": {
+      "origin": "local nestmaster_full/include/Detectors/LZ_WS2024.hh",
+      "bytes": 15500,
+      "sha256": "36c1406c8ac28049b2fe7c8442b904b64fc799f8c8966fba58175e52a453b11c",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/VDetector.hh": {
+      "origin": "local nestmaster_full/include/Detectors/VDetector.hh",
+      "bytes": 8995,
+      "sha256": "91450f2318d22ca016b120f9b31f15c8b72c68200d257d43f5240c014eeecd43",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/Xed_CWRU_Dahl.hh": {
+      "origin": "local nestmaster_full/include/Detectors/Xed_CWRU_Dahl.hh",
+      "bytes": 8817,
+      "sha256": "adc39bc0423fa32e550b9871492d8d66ecdf29ae9dad5a477a22e1ed234af415",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/XENONnT_SR0.hh": {
+      "origin": "local nestmaster_full/include/Detectors/XENONnT_SR0.hh",
+      "bytes": 9670,
+      "sha256": "c218879216b1c0d64f9556be89e9998f7c17a019e07620651956bc322b35d76e",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/Detectors/Z3_FSR_HA.hh": {
+      "origin": "local nestmaster_full/include/Detectors/Z3_FSR_HA.hh",
+      "bytes": 9072,
+      "sha256": "9da342c87cee609ec5d7c0b66f8754cc30c48b5709def3fa680d8a9a39463b05",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/analysis.hh": {
+      "origin": "local nestmaster_full/include/NEST/analysis.hh",
+      "bytes": 3527,
+      "sha256": "a100e2ef996981050c1b9e94a23c6c86693207538c83589228e78cf46edfddd4",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/analysis_G2.hh": {
+      "origin": "local nestmaster_full/include/NEST/analysis_G2.hh",
+      "bytes": 3465,
+      "sha256": "77d470c8392a81172870ff6223a43988a19b2523315e4e0ce65c3e1b9bb6461d",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/execNEST.hh": {
+      "origin": "local nestmaster_full/include/NEST/execNEST.hh",
+      "bytes": 3910,
+      "sha256": "b5775ee03e8505f214cc4f592dac46c5d2dcfdbb82e8c4377ac9f633fa5fdba0",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/GammaHandler.hh": {
+      "origin": "local nestmaster_full/include/NEST/GammaHandler.hh",
+      "bytes": 1641,
+      "sha256": "813b4773b917910fca8571449e6b934c8c7a9729c56d5da92a06c307067fb6a5",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/LArNEST.hh": {
+      "origin": "local nestmaster_full/include/NEST/LArNEST.hh",
+      "bytes": 15136,
+      "sha256": "e5ada7ed24d2db879fa9192c3072f3ce63a6deba526d4f1b076180d6236f8050",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/LArParameters.hh": {
+      "origin": "local nestmaster_full/include/NEST/LArParameters.hh",
+      "bytes": 3815,
+      "sha256": "55f506405eb517b49df28abcb79ff993aca9d51a02bd8af5551f650c35bb227d",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/NEST.hh": {
+      "origin": "local nestmaster_full/include/NEST/NEST.hh",
+      "bytes": 19599,
+      "sha256": "0ae643bf80ad9561b41fc14a55b89227ae60e1cce584caf5cb7efbb39edd1e6e",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/RandomGen.hh": {
+      "origin": "local nestmaster_full/include/NEST/RandomGen.hh",
+      "bytes": 2141,
+      "sha256": "7912922230c0b087bc094341f5684a71dcd911b2bdda0d0e23b13bc1de5a3ba9",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/TestLArSpectra.hh": {
+      "origin": "local nestmaster_full/include/NEST/TestLArSpectra.hh",
+      "bytes": 1865,
+      "sha256": "22db792feca0bd5de20d740caaed21036667a994731375af5051e85d6598a89f",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/TestSpectra.hh": {
+      "origin": "local nestmaster_full/include/NEST/TestSpectra.hh",
+      "bytes": 2475,
+      "sha256": "8059923439c341d3e0503831d7b95273d7ed13ce01a86c77c020f1af37862148",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/ValidityTests.hh": {
+      "origin": "local nestmaster_full/include/NEST/ValidityTests.hh",
+      "bytes": 243,
+      "sha256": "df3f807f99510519f68f4fd6085db4f4976c50ff8893b582b9058a4d3ed642f8",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/include/NEST/xoroshiro.hh": {
+      "origin": "local nestmaster_full/include/NEST/xoroshiro.hh",
+      "bytes": 34676,
+      "sha256": "0838731a54960e53d6dd001c79f9cfbadb3d3a8c73d38830881620b2e38fdb24",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/LICENSE": {
+      "origin": "local nestmaster_full/LICENSE",
+      "bytes": 589,
+      "sha256": "87ed1380e609d47e9d6f4bbb9bb6b23242ace7b06f13d2524c6edd1b951c0238",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/CITATION.md": {
+      "origin": "local nestmaster_full/CITATION.md",
+      "bytes": 391,
+      "sha256": "9f52f1a44db9570edcc7df21fe45ee3a58702d177a9692981c2d25008a909cd7",
+      "byte_identical_copy": true
+    },
+    "third_party/nest/README.md": {
+      "origin": "local nestmaster_full/README.md",
+      "bytes": 31922,
+      "sha256": "d512d94fc623c6c7d8a2789bc8e81db85131aaa79aa842df44c5abbd119ba0a4",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem.hpp": {
+      "origin": "existing local gcem-src/include/gcem.hpp",
+      "bytes": 3176,
+      "sha256": "fedbf08c656ed5b188e0961ecad6a73281bf595cbd7de22864e16eea4960b1e6",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/abs.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/abs.hpp",
+      "bytes": 1292,
+      "sha256": "1845f197d14c5733def056a7b430dc46ad62732da1683531caf63574cb364eb2",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/acos.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/acos.hpp",
+      "bytes": 2141,
+      "sha256": "f0d2e867c6b2dade08f0e152307684f49d2b74e8f7820fea24a6ffc4207ce766",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/acosh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/acosh.hpp",
+      "bytes": 1832,
+      "sha256": "395340a0f1dd4f9fe9d0c2a54c30b5c76843ad400b8843e47681641da454c403",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/asin.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/asin.hpp",
+      "bytes": 2083,
+      "sha256": "89b85190ac7b7e83b00a93e8fdbdcba123484ab729c2f1316d559bbc0e58a6ae",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/asinh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/asinh.hpp",
+      "bytes": 1715,
+      "sha256": "02d78bbe4f27cdcee4c438c0b4e924a1f4be88dbaa9d16a21530cebf32206576",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/atan.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/atan.hpp",
+      "bytes": 4256,
+      "sha256": "c039e9f2b51749cfb570b0c81709eab2e6604455fa443eba094164fbddc7b323",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/atan2.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/atan2.hpp",
+      "bytes": 2931,
+      "sha256": "9531596259fdddf58bbed597f0a162d16c3e95a5cdefbc1dbfea172037963d60",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/atanh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/atanh.hpp",
+      "bytes": 2057,
+      "sha256": "b787c98e62641ee07f5189c6bd1888f5add5b8974da1bcbf5924cd903b934879",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/beta.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/beta.hpp",
+      "bytes": 1412,
+      "sha256": "11ffcd48ac89b7175d2734d598e746cbecc9e5aee808e5cc943df246c41c6045",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/binomial_coef.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/binomial_coef.hpp",
+      "bytes": 2565,
+      "sha256": "73bd51be6c316038e87b3028877cf4af34b8de5477b41eeba936d49edd1c7890",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/ceil.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/ceil.hpp",
+      "bytes": 1918,
+      "sha256": "885e31c643ca59aeea7a1509460f5ab08ca0b54d8f61a97fc7470aaf6ecb6161",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/copysign.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/copysign.hpp",
+      "bytes": 1265,
+      "sha256": "33eee68692d7dd2cc6ae9fe1093acf3122da565c88c80369da9f9f928c4ba962",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/cos.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/cos.hpp",
+      "bytes": 2138,
+      "sha256": "3516412ffcde9208a08ea410ed48cda9f3d40053cff9952504a1929ea97e7ec7",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/cosh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/cosh.hpp",
+      "bytes": 1674,
+      "sha256": "765ddb108a59236ba05b0fd9e0b00b10ce84d0ccfa6ab9a73a2993b1f603dbd3",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/erf.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/erf.hpp",
+      "bytes": 3372,
+      "sha256": "b9b782e5425d59c968a628198e14a3c2fdfefbbac8f1f953924cc44ff83bacbe",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/erf_inv.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/erf_inv.hpp",
+      "bytes": 6979,
+      "sha256": "ffa1ee055167fedf88ee391cce8a260f9b19020793cfff88c38e0fed46939df4",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/exp.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/exp.hpp",
+      "bytes": 2617,
+      "sha256": "07c25ad33b2f24897ec99b133f46e17b1f264167e31a0a47cb88bc255cbc7e25",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/expm1.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/expm1.hpp",
+      "bytes": 1920,
+      "sha256": "053a73500fa10f43046ea373e9d838771a85c9fef6e48e1e450c8601a1b20f71",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/factorial.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/factorial.hpp",
+      "bytes": 2725,
+      "sha256": "ebbfa4ee45e9997656e52e03ff687558b9356ceb75658d9f03226d4b15d1445d",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/find_exponent.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/find_exponent.hpp",
+      "bytes": 1354,
+      "sha256": "039d697f3f2152983ec6c410c4f46ac871434cef4ace00c96108c8e4f961d301",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/find_fraction.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/find_fraction.hpp",
+      "bytes": 1326,
+      "sha256": "819a974ad282cbe272fc5dd30f399861eb16eaee7365fc3c26e918cde075f355",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/find_whole.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/find_whole.hpp",
+      "bytes": 1363,
+      "sha256": "8ae4747eae0366f12a68114d0aa1bf63e5677f48a43ba2863d92a66b55d277af",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/floor.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/floor.hpp",
+      "bytes": 1926,
+      "sha256": "cdaf0e801e690d4d04de383c50a21eb8c925c1dac58f6bbd8ef5ff9ac5e2a8f9",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/fmod.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/fmod.hpp",
+      "bytes": 1926,
+      "sha256": "e788adc256614bc438b4f868228c548f899645d62d77fe3af17eb2d197c90aed",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/gcd.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/gcd.hpp",
+      "bytes": 2090,
+      "sha256": "a18c9e87c2c3b294c0cccc0b2b5d3b10b0583106b81354df86321b81d1f70a7a",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/gcem_options.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/gcem_options.hpp",
+      "bytes": 4257,
+      "sha256": "a4cf08d435acf528c3476beeb05e9cb6049ac529ce23f99b5c75bafda56e631a",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/incomplete_beta.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/incomplete_beta.hpp",
+      "bytes": 5984,
+      "sha256": "7d8aa5aa08820e9fcb9fe08a4215df7efe5673456d53728535e21d1f006d3c03",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/incomplete_beta_inv.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/incomplete_beta_inv.hpp",
+      "bytes": 11066,
+      "sha256": "cf8fd5f3047617c0102c109ba0b21362aa04efdab68670a3875279c36dc036a8",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/incomplete_gamma.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/incomplete_gamma.hpp",
+      "bytes": 7394,
+      "sha256": "0c62cb12cb9fef970ec3eeb8e705b1c4d265d256b70a0f20c6dc2e320a1bb773",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/incomplete_gamma_inv.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/incomplete_gamma_inv.hpp",
+      "bytes": 7627,
+      "sha256": "1efa427490f92ba83f5d6f269276c21082eb4dd0f272c50b62bad7476a5a3c1c",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/is_even.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/is_even.hpp",
+      "bytes": 1093,
+      "sha256": "1809562f640104df233b34048aa1ec599e51867b20e11c1eb2eea17bcdf76bd8",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/is_finite.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/is_finite.hpp",
+      "bytes": 1806,
+      "sha256": "59499aa44ce2089e5ab7c91e931a65b1a09fb5d87ad448de45c601001b19424b",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/is_inf.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/is_inf.hpp",
+      "bytes": 3276,
+      "sha256": "760c3b5aea95f4c114d661069d92dc56385765dea017cf952f5e0dde12cd46cd",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/is_nan.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/is_nan.hpp",
+      "bytes": 1767,
+      "sha256": "089600ebe3a72a10bac910a200bc9d9d3f8716665f5d43c6ee8a8ed5e53edff7",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/is_odd.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/is_odd.hpp",
+      "bytes": 1154,
+      "sha256": "88d5848c32e898473583d1de655ba3ff90c208cd13b56abeb39f2c65579fa285",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/lbeta.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/lbeta.hpp",
+      "bytes": 1463,
+      "sha256": "8c6090093516b72bc7b4d028869518d21b6233fc0b799b04bb90eea8f7c62341",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/lcm.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/lcm.hpp",
+      "bytes": 1805,
+      "sha256": "b0a2c33b5f004cc6a31d5644c1ee1ee4f002b6e92998790e9d901dff22cff2fb",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/lgamma.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/lgamma.hpp",
+      "bytes": 3936,
+      "sha256": "4327aecfab48eb1f6d7696099029ef5516bf26ad6e01c7c67dd73eb6a286eea4",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/lmgamma.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/lmgamma.hpp",
+      "bytes": 2030,
+      "sha256": "bbaedeae2ee89e3f02a0b258e34ea9b4cb5ed60836e7c48ef0aceb4cba8f0d63",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/log.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/log.hpp",
+      "bytes": 4045,
+      "sha256": "fedb3730d5eaf5207a890af2d8ccccdc3128431161bd15dc8a9707429cd5f245",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/log1p.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/log1p.hpp",
+      "bytes": 2045,
+      "sha256": "6f3bf7795de8e92d9f119be9bfdeb11b5ee269ba74ee7a6c53265f025b75e15b",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/log2.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/log2.hpp",
+      "bytes": 1946,
+      "sha256": "bdfe948cc0e6d316c6da184045e1b011f188df77f277c1e28ce9c30020aa5683",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/log_binomial_coef.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/log_binomial_coef.hpp",
+      "bytes": 1817,
+      "sha256": "9b8ec806a28c8af91a226f669771bcab389bb2e3c75a3f590e8ab7d5fc460164",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/mantissa.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/mantissa.hpp",
+      "bytes": 1243,
+      "sha256": "c06b5b5796925f26ece6d4da3ecf608d849d51cd8f2c24f7a7c89c70ebc44eda",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/max.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/max.hpp",
+      "bytes": 1312,
+      "sha256": "3dd43bbf22bc498afad9837367ccf5c8cf7239f62bcca52a0adca65500b1fef3",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/min.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/min.hpp",
+      "bytes": 1312,
+      "sha256": "f64886aabb282de35410d2f48c64d37a95f46bc4371886f630beb90a22ff4dc0",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/neg_zero.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/neg_zero.hpp",
+      "bytes": 1087,
+      "sha256": "988eddd8453634ae5e5574f2a5a48ed99ae4895882113e7f2c064e8ad624821f",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/pow.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/pow.hpp",
+      "bytes": 2267,
+      "sha256": "201a35569af9041278676fd11d8411b48d996a7691686ba5ff16bf9ba093e3a4",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/pow_integral.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/pow_integral.hpp",
+      "bytes": 3662,
+      "sha256": "48a748944f26030c75869f2bf57da21bcc6c4184d08ab3585e0b10ebd9797901",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/quadrature/gauss_legendre_30.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/quadrature/gauss_legendre_30.hpp",
+      "bytes": 3548,
+      "sha256": "1692236a386a86d51a51cb081ac5b9bf5d892a03bd3453702f357d39645dc34d",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/quadrature/gauss_legendre_50.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/quadrature/gauss_legendre_50.hpp",
+      "bytes": 5208,
+      "sha256": "8b9ce91cde07655ab90414a80c4502ae96fd5cd223c23664c755ac0aeb10c9fc",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/round.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/round.hpp",
+      "bytes": 1744,
+      "sha256": "7909ec0fb57fd98d2ec1fb613fcc7e4c8d080064fbaf4968d8e99d993ba8f819",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/sgn.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/sgn.hpp",
+      "bytes": 1370,
+      "sha256": "7e8382ea94dbbcf66b0f6effd29bb706ec484ba30985fb3a5eec729600c176f4",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/signbit.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/signbit.hpp",
+      "bytes": 1297,
+      "sha256": "75c5bd3fc5240e3142aaee9edd53b1c33501cb7e0a1b62a8defe019e53712138",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/sin.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/sin.hpp",
+      "bytes": 2168,
+      "sha256": "ea90edaf9376dc25d3f5e0d0b65fb971b2da977c1c35b3c26bc0ea5738f1b277",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/sinh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/sinh.hpp",
+      "bytes": 1661,
+      "sha256": "e65435f18aaebb9e78e1b79b27ea103e98893a31ee5ae848c2136c92ea910236",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/sqrt.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/sqrt.hpp",
+      "bytes": 2284,
+      "sha256": "6c5c3a63cbc2e80d005552cef2457c7cbb210a42b4a8265edeedf66993a30dbd",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/tan.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/tan.hpp",
+      "bytes": 3831,
+      "sha256": "8077863b5bcc774a32306987460e915e52bbc8cb67bfebc12b1a88758701f0a8",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/tanh.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/tanh.hpp",
+      "bytes": 2139,
+      "sha256": "de4809729e16a973a0f03cc4424851d83339111859b99dc57700036b9d16cacc",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/tgamma.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/tgamma.hpp",
+      "bytes": 2386,
+      "sha256": "f75fde261c30ab18870d6063bd1bf38f5a2c681535e45dbddf9f65de7a1c9b67",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/include/gcem_incl/trunc.hpp": {
+      "origin": "existing local gcem-src/include/gcem_incl/trunc.hpp",
+      "bytes": 1780,
+      "sha256": "88ba54b67fc5e4d3ac965e05eec0b1c73acb5072db0730f351c04548e1f99900",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/LICENSE": {
+      "origin": "existing local gcem-src/LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/NOTICE.txt": {
+      "origin": "existing local gcem-src/NOTICE.txt",
+      "bytes": 181,
+      "sha256": "005ecb22d60a864c151713efa5336b503b2c43c1d12ebfd44764122e505a72ce",
+      "byte_identical_copy": true
+    },
+    "third_party/gcem/README.md": {
+      "origin": "existing local gcem-src/README.md",
+      "bytes": 7130,
+      "sha256": "15f2cbd2583ea330fa09f266b9baded27d5d8ead989e594250e5f0ea83d3fad8",
+      "byte_identical_copy": true
+    },
+    "response/src/nestDiamxCore.cpp": {
+      "origin": "corrected-drift current mainline wrapper/nestDiamxCore.cpp",
+      "bytes": 15906,
+      "sha256": "ab24070bf86f54ac4a0af714032007b1e701adf596438b4fccdbc793f84aad12",
+      "byte_identical_copy": true
+    },
+    "response/src/nestDiamxCore.hh": {
+      "origin": "corrected-drift current mainline wrapper/nestDiamxCore.hh",
+      "bytes": 1192,
+      "sha256": "942db67debc933a5fb9ce647ff3dea7f46d23428044f7b59fef96e5f2b112569",
+      "byte_identical_copy": true
+    },
+    "response/src/csvSpectra.hh": {
+      "origin": "corrected-drift current mainline wrapper/csvSpectra.hh",
+      "bytes": 5581,
+      "sha256": "6e941cd4ce95f3b06f1b3ef49378d0b7b955198d36d95f5c91e47d58e2ab087d",
+      "byte_identical_copy": true
+    },
+    "response/inputs/flat_er_0p1_350.csv": {
+      "origin": "flat reference input used in verified clean-build replay/flat_er_0p1_350.csv",
+      "bytes": 26902,
+      "sha256": "815b03a698d09964dff10201d70b19f46c4896f3d6a897337386361519d36e8a",
+      "byte_identical_copy": true
+    },
+    "response/inputs/flat_nr_0p1_500.csv": {
+      "origin": "flat reference input used in verified clean-build replay/flat_nr_0p1_500.csv",
+      "bytes": 255000,
+      "sha256": "b94926baaabfbe12a641c8a8decbb72b82b82bd9415eb2bd1b652351d70d1276",
+      "byte_identical_copy": true
+    }
+  },
+  "gcem_local_git_commit": null
+}

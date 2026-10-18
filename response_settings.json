@@ -1,0 +1,139 @@
+{
+  "scope": "Current ER/NR band comparison only; no background or new-physics signal templates.",
+  "source_version": "Retained local NEST snapshot used by the audited mainline producer; exact source hashes supplied. Not claimed to be an unmodified upstream release.",
+  "experiment_argument": "lz_ws2024",
+  "configuration_method": "SetEFT2024Configuration",
+  "dec_quenching_factor": 1.0,
+  "er_omega_scale": 1.0,
+  "detector_ablation_mode": 0,
+  "configured_parameters": {
+    "g1": 0.1104,
+    "g1_gas": 0.07753555,
+    "field_V_cm": 96.5,
+    "T_K": 175.9,
+    "p_bar": 1.86,
+    "E_gas_kV_cm": 8.301178,
+    "eLife_us": 15000,
+    "s2_threshold_PE": 120,
+    "sPEres": 0.338,
+    "sPEthr_PE": 0.1,
+    "sPEeff": 1,
+    "P_dphe": 0.214,
+    "coinWindow_ns": 150,
+    "coinLevel": 3,
+    "numPMTs": 481,
+    "OldW13eV": 1,
+    "noiseLinear_S1": 0,
+    "noiseLinear_S2": 0,
+    "s2Fano": 4,
+    "dtCenter_us": 525,
+    "dtMin_us": 71,
+    "dtMax_us": 1029,
+    "fiducialRadius_mm": 688,
+    "physicalRadius_mm": 728,
+    "TopDrift_mm": 1461,
+    "anode_mm": 1469,
+    "gas_gap_mm": 8,
+    "EL_photons_per_e": 613.190384121547,
+    "extraction_efficiency": 0.726195341877587,
+    "SE_phd_per_e": 47.54405368757541,
+    "g2_phd_per_e": 34.52627032189518
+  },
+  "configured_vectors": {
+    "NR_yield": [
+      11.21,
+      1.113,
+      0.0522,
+      -0.0533,
+      10.8,
+      0.53,
+      1.41,
+      0.31,
+      2.5,
+      0.5,
+      1.39,
+      1.74,
+      0.023,
+      0.0289,
+      74.7
+    ],
+    "ER_yield": [
+      12.31,
+      84.91,
+      0.5707,
+      2.804,
+      34.04,
+      -1,
+      82.57,
+      4.557,
+      0.2207,
+      0.1272
+    ],
+    "NR_ER_width": [
+      1.076,
+      1.061,
+      -0.707,
+      0.5,
+      0.19,
+      2.25,
+      -0.000905,
+      0.03174,
+      2.588,
+      0.3627,
+      -0.3583,
+      0,
+      0.02377,
+      0.06211,
+      5.2,
+      1.359,
+      -2.599
+    ]
+  },
+  "observable": {
+    "X": "S1c=scint[5], area, phd",
+    "Y": "log10(S2c/phd), S2c=scint2[7]",
+    "third_runner_column": "energy_rec: reconstructed energy; not true recoil energy; not used for selection"
+  },
+  "statistics": {
+    "finite_positive_pairs_only": true,
+    "slice_half_open": true,
+    "ER_slice_full_width_phd": 20,
+    "NR_slice_full_width_phd": 10,
+    "minimum_events": 100,
+    "mean": "mean(log10(S2c/phd))",
+    "sigma": "std(log10(S2c/phd), ddof=0)",
+    "quantiles": "numpy.quantile([0.1,0.9], method=linear)",
+    "extra_analysis_selection": null,
+    "efficiency_weights": null,
+    "empirical_width_scale": null
+  },
+  "ER": {
+    "interaction": "beta",
+    "seed": 2452026,
+    "events_requested": 1000000,
+    "flat_energy_keVee": [
+      0.1,
+      350
+    ],
+    "original_event_CSV_significant_digits": 6,
+    "slice_points": 40
+  },
+  "NR": {
+    "interaction": "NR",
+    "seed": 260903,
+    "events_requested": 3000000,
+    "flat_energy_keVnr": [
+      0.1,
+      500
+    ],
+    "original_event_CSV_significant_digits": 17,
+    "slice_points": 80
+  },
+  "notes": [
+    "NR500 changes the reference energy endpoint, not an analysis cut.",
+    "Original ER six-significant-digit event export can produce tiny differences from a full-precision new run. Optional legacy rounding is serialization only.",
+    "q10-q90 is central 80 percent; mean+-sigma coverage is not defined to be exactly 68 percent for non-Gaussian distributions.",
+    "Published boundaries are extracted PDF vector coordinates, not official model event counts. They retain the paper q10/q90 labels.",
+    "Mainline/curve producer uses the retained corrected-drift wrapper; historical frozen background runtime is outside this package."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "portable_redraw_png_exact": {
+    "ER_NR500_main_panels.png": true,
+    "ER_NR500_combined.png": true
+  },
+  "final_plot_script_sha256": "95ceea35c2d05a3aa10edf507c1a74096b90c41771bea698c061fe7a868a8e69",
+  "end_to_end_quick_simulation": {
+    "events_ER": 10000,
+    "events_NR": 10000,
+    "ER_slice_points": 40,
+    "NR_slice_points": 80,
+    "steps_completed": [
+      "configure bundled sources",
+      "compile bundled sources",
+      "generate ER",
+      "generate NR",
+      "compute fixed S1 bands",
+      "draw regenerated bands"
+    ],
+    "quick_is_functional_not_precision_reference": true
+  },
+  "full_original_bank_statistics_validation": "validation/independent_review.json",
+  "portable_source_numeric_validation": "response/portable_validation.json",
+  "tested_environment": {
+    "Python": "3.12.1",
+    "NumPy": "2.2.1",
+    "Matplotlib": "3.10.0",
+    "CXX": "GNU11.4",
+    "CMake": "3.22.1"
+  },
+  "archive_exclusions": [
+    "build directories",
+    "output directories",
+    "Python caches",
+    "private original-bank QA runner"
+  ],
+  "no_external_transmission": true
+}

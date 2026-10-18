@@ -1,0 +1,2 @@
+# Preserve the exact source and data bytes recorded in MANIFEST.sha256.
+* -text

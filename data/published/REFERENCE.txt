@@ -1,0 +1,13 @@
+Reference curves
+
+Source: LZ arXiv:2609.02823v1, Figure 2, Fig2_Calibrations.pdf in the paper source archive.
+Paper: https://arxiv.org/abs/2609.02823v1
+Source archive: https://arxiv.org/src/2609.02823v1
+Fig2 PDF SHA256: 988030d046db4143547b39756ca96be3d4c9db715aeb6a564de663d108f6f39d
+
+The six CSV files were extracted from PDF vector paths. They are reference geometry,
+not an official numerical model release, Monte Carlo event sample, or counted histogram.
+The published q10/q90 description has not been changed.
+Each reference is interpolated only within its actual S1c support; no extrapolation.
+ER upper boundary ends at approximately674.411 phd; ER width ratios therefore end
+at the 670-phd slice center in the supplied plot.

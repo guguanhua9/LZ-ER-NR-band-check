@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "scope": "Independent portable numerical review; no new detector MC",
+  "synthetic_contract": {
+    "joint_finite_positive_pair_filter": true,
+    "extra_energy_nan_does_not_reject_observable_pair": true,
+    "ER_NR_S1_half_open_slices_no_800_endpoint_inclusion": true,
+    "linear_quantiles_and_ddof0": true
+  },
+  "ER_full_event_bank": {
+    "generated_rows": 1000000,
+    "finite_positive_pairs": 996339,
+    "slices_checked": 40,
+    "maximum_absolute_difference": {
+      "mean": 0.0,
+      "sigma": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "quantile_check": "independent explicit sorted-rank linear interpolation",
+    "event_bank_sha256": "9f3290f23374dd411b36626ad8fccf7905a0ae8a4c7ad97d8e3ca3ee3952a30f"
+  },
+  "ER_packaged_estimator": {
+    "generated_rows": 1000000,
+    "finite_positive_pairs": 996339,
+    "slices_checked": 40,
+    "maximum_absolute_difference": {
+      "mean": 0.0,
+      "sigma": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "quantile_check": "independent explicit sorted-rank linear interpolation",
+    "event_bank_sha256": "9f3290f23374dd411b36626ad8fccf7905a0ae8a4c7ad97d8e3ca3ee3952a30f"
+  },
+  "ER_recomputed_plot_columns": {
+    "all_exact_equal_with_nan": true,
+    "columns_checked": [
+      "s1c_center_phd",
+      "slice_full_width_phd",
+      "events",
+      "mean_log10_s2c",
+      "std_log10_s2c_ddof0",
+      "minus1sigma",
+      "plus1sigma",
+      "q10",
+      "q90",
+      "published_mean",
+      "published_lower",
+      "published_upper",
+      "sigma1_width_over_published",
+      "q10q90_width_over_published"
+    ]
+  },
+  "NR_full_event_bank": {
+    "generated_rows": 3000000,
+    "finite_positive_pairs": 2976974,
+    "slices_checked": 80,
+    "maximum_absolute_difference": {
+      "mean": 0.0,
+      "sigma": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "quantile_check": "independent explicit sorted-rank linear interpolation",
+    "event_bank_sha256": "97fe72eebd868b2f624db87eb5ea0239156c993faecdd7635dabd2e843b85698"
+  },
+  "NR_packaged_estimator": {
+    "generated_rows": 3000000,
+    "finite_positive_pairs": 2976974,
+    "slices_checked": 80,
+    "maximum_absolute_difference": {
+      "mean": 0.0,
+      "sigma": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "quantile_check": "independent explicit sorted-rank linear interpolation",
+    "event_bank_sha256": "97fe72eebd868b2f624db87eb5ea0239156c993faecdd7635dabd2e843b85698"
+  },
+  "NR_recomputed_plot_columns": {
+    "all_exact_equal_with_nan": true,
+    "columns_checked": [
+      "s1c_phd",
+      "events",
+      "mean_log10_s2c",
+      "std_log10_s2c_ddof0",
+      "minus1sigma_log10_s2c",
+      "plus1sigma_log10_s2c",
+      "q10_log10_s2c",
+      "q90_log10_s2c",
+      "published_mean",
+      "published_lower",
+      "published_upper",
+      "pm1sigma_width_over_published",
+      "q10q90_width_over_published"
+    ]
+  },
+  "redraw_exact_matches": {
+    "ER_NR500_main_panels.png": true,
+    "ER_NR500_combined.png": true,
+    "plotted_er_series.csv": true,
+    "plotted_nr_series.csv": true
+  }
+}
